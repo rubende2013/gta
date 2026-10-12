@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404 - Los Santos Ledger</title>
+<style>
+:root{color-scheme:light;--paper:#f7f7f4;--bone:#f2f1ed;--ink:#26251e;--muted:#77766f;--line:#cdcdc9;--ember:#f54e00}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;min-height:100vh;display:flex;flex-direction:column}
+header{height:60px;border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 28px;gap:11px}
+.mark{width:25px;height:25px;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-size:13px}
+.brand{font-size:13px;letter-spacing:-.2px}
+main{width:min(760px,calc(100% - 48px));margin:auto;padding:88px 0 104px}
+.meta{font:11px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+.code{font-size:clamp(92px,18vw,176px);font-weight:400;letter-spacing:-.095em;line-height:.95;margin:28px 0 32px}
+h1{font-size:clamp(25px,4vw,36px);font-weight:400;letter-spacing:-.045em;margin:0 0 14px}
+p{max-width:430px;color:var(--muted);font-size:15px;line-height:1.7;margin:0}
+.actions{display:flex;align-items:center;gap:22px;margin-top:32px;flex-wrap:wrap}
+a{font-size:13px;text-decoration:none}
+.primary{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 17px;background:var(--ink);color:var(--paper);border:1px solid var(--ink);border-radius:4px}
+.secondary{color:var(--ink);border-bottom:1px solid var(--ember);padding-bottom:4px}
+footer{border-top:1px solid var(--line);padding:17px 28px;display:flex;justify-content:space-between;gap:12px;color:var(--muted);font:10px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.04em}
+@media(max-width:520px){header{padding:0 18px}main{width:calc(100% - 36px);padding:70px 0 84px}footer{padding:16px 18px;flex-direction:column}}
+</style>
+</head>
+<body>
+<header><div class="mark">L</div><div class="brand">Los Santos Ledger</div></header>
+<main>
+<div class="meta">Error / 404</div>
+<div class="code" aria-label="404">404</div>
+<h1>This page doesn't exist.</h1>
+<p>The page you're looking for may have moved, or the address may be incorrect. Let's get you back on track.</p>
+<div class="actions">
+<a class="primary" href="index.html">Back to dashboard <span aria-hidden="true" style="margin-left:16px">-&gt;</span></a>
+<a class="secondary" href="index.html">Return to home</a>
+</div>
+</main>
+<footer><span>LOS SANTOS LEDGER</span><span>NOT FOUND / 404</span></footer>
+</body>
+</html>
